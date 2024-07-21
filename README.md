@@ -81,7 +81,11 @@ This project is a social media-style web application for viewing and commenting 
    npx sequelize-cli db:migrate
    ```
 
-5. **Start the Server:**
+5. ** Run:**:
+ ```sh
+    npm install --save express body-parser sequelize sequelize-cli sqlite3 nodemon
+   ```
+6. **Start the Server:**
    ```sh
    npm start
    ```
